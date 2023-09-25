@@ -48,7 +48,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.7.0</version>
@@ -57,8 +57,8 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.7.0</version>
-		</dependency>
-		<dependency>
+		</dependency> -->
+	<!-- 	<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.3.1</version>
@@ -68,7 +68,7 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>6.2.6.Final</version>
 			<scope>compile</scope>
-		</dependency>
+		</dependency> -->
 	<!-- 	<dependency>
 			<groupid>io.springfox</groupid>
 			<artifactid>springfox-boot-starter</artifactid>
