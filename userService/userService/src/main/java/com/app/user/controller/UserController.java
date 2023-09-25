@@ -27,5 +27,10 @@ public class UserController {
 	
 		return new ResponseEntity<List<User>>(userService.getUsers(), HttpStatus.ACCEPTED);
 	}
+	
+	@GetMapping("/hai")
+	public ResponseEntity<String> getString(){
+		return new ResponseEntity<String>("hello mahesh", HttpStatus.OK);
+	}
 
 }
